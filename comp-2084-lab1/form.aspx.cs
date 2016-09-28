@@ -13,5 +13,13 @@ namespace comp_2084_lab1
         {
 
         }
+
+        protected void btnSubmit_Click(object sender, EventArgs e)
+        {
+            lblMessage.Visible = true;
+            lblMessage.Text = "Name " + txtName.Text;
+            lblMessage.Text = "Password " + txtPassword.Text;
+            lblMessage.Text = "Address " + txtAddress.Text;
+        }
     }
 }

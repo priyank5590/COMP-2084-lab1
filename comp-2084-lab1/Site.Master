@@ -13,6 +13,8 @@
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="main.css" type="text/css" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -27,7 +29,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="default.aspx">COMP 2084 | Week 4</a>
+                    <a class="navbar-brand" href="default.aspx">COMP 2084 | Lab 1</a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->

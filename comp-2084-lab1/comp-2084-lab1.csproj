@@ -95,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="form.aspx" />
+    <Content Include="main.css" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
