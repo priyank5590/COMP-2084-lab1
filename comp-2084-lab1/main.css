@@ -1,5 +1,5 @@
 ﻿.form input {
-    width: 30%;
+      width: 80%;
     height: 40px;
     margin-bottom: 7px;
     padding: 5px;
@@ -9,4 +9,12 @@
     margin-top: 10px;
     font-size: 14px;
     text-transform: uppercase;
+}
+.form span {
+    display: block;
+    font-size: 15px;
+    margin: 5px 0px;
+}
+.form .display-info {
+    margin-top: 80px;
 }
