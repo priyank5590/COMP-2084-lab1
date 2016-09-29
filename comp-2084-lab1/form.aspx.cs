@@ -19,9 +19,15 @@ namespace comp_2084_lab1
             lblName.Visible = true;
             lblPassword.Visible = true;
             lblAddress.Visible = true;
+            lblEducation.Visible = true;
+            lblLaptop.Visible = true;
+            lblSkill.Visible = true;
             lblName.Text = "Name : " + txtName.Text;
             lblPassword.Text = "Password : " + txtPassword.Text;
             lblAddress.Text = "Address : " + txtAddress.Text;
+            lblEducation.Text = "Education : " + rbtLstRating.Text;
+            lblLaptop.Text = "Laptop : " + txtLaptop.Checked;
+            lblSkill.Text = "Skills : " + checkList.Text;
         }
     }
 }

@@ -1,5 +1,4 @@
 ﻿.form input {
-      width: 80%;
     height: 40px;
     margin-bottom: 7px;
     padding: 5px;
@@ -8,7 +7,6 @@
     display: block;
     margin-top: 10px;
     font-size: 14px;
-    text-transform: uppercase;
 }
 .form span {
     display: block;
@@ -17,4 +15,21 @@
 }
 .form .display-info {
     margin-top: 80px;
+}
+.form .list td {
+    text-align:center;
+       padding: 0px 20px;
+
+}
+.form .list input {
+    height: 15px;
+
+}
+.form .list label {
+        display: inline-block;
+    text-transform: none;
+    margin-left: 6px;
+    position: relative;
+    bottom: 3px;
+
 }
