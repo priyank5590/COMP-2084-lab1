@@ -7,42 +7,47 @@
         <div class="col-md-6 col-sm-6">
             <h1>Enter Your Information</h1>
 
-            <label>Name</label>
-            <asp:TextBox ID="txtName" runat="server" placeholder="Enter your name" />
+            <div class="fields">
+                <label>Name</label>
+                <asp:TextBox ID="txtName" runat="server" placeholder="Enter your name" />
+                <label>Password</label>
+                <asp:TextBox ID="txtPassword" runat="server" placeholder="Password" />
+                <label>Address</label>
+                <asp:TextBox ID="txtAddress" runat="server" placeholder="Address" />
+            </div>
 
-
-            <label>Password</label>
-            <asp:TextBox ID="txtPassword" runat="server" placeholder="Password" />
-
-
-            <label>Address</label>
-            <asp:TextBox ID="txtAddress" runat="server" placeholder="Address" />
 
             <div class="list">
                 <label>Education</label>
                 <asp:RadioButtonList ID="rbtLstRating" runat="server" RepeatDirection="Horizontal">
-                    <asp:ListItem Text="High School">High School</asp:ListItem>
-                    <asp:ListItem Text="College">College</asp:ListItem>
-                    <asp:ListItem Text="Graduate">Graduate</asp:ListItem>
-                    <asp:ListItem Text="Other">Other</asp:ListItem>
+                    <asp:ListItem Text="High School"></asp:ListItem>
+                    <asp:ListItem Text="College"></asp:ListItem>
+                    <asp:ListItem Text="Graduate"></asp:ListItem>
+                    <asp:ListItem Text="Other"></asp:ListItem>
                 </asp:RadioButtonList>
 
-                <label>Do you have a laptop? (check if yes):</label>
-                <asp:CheckBox ID="txtLaptop" runat="server" />
-
-                <div>
-                    <label>Skill List</label>
-                    <asp:CheckBoxList ID="checkList" runat="server" RepeatDirection="Horizontal">
-                        <asp:ListItem Text="HTML">HTML</asp:ListItem>
-                        <asp:ListItem Text="PHP">PHP</asp:ListItem>
-                        <asp:ListItem Text="CSS">CSS</asp:ListItem>
-                        <asp:ListItem Text="C#">C#</asp:ListItem>
-                        <asp:ListItem Text="JAVA">JAVA</asp:ListItem>
-                    </asp:CheckBoxList>
+                <div class="check">
+                    <label>Do you have a laptop? (check if yes):</label>
+                    <asp:CheckBox ID="txtLaptop" runat="server" />
                 </div>
+
+                <label>Skill List</label>
+                <asp:CheckBoxList ID="checkList" runat="server" RepeatDirection="Horizontal">
+                    <asp:ListItem Text="HTML"></asp:ListItem>
+                    <asp:ListItem Text="PHP"></asp:ListItem>
+                    <asp:ListItem Text="CSS"></asp:ListItem>
+                    <asp:ListItem Text="C#"></asp:ListItem>
+                    <asp:ListItem Text="JAVA"></asp:ListItem>
+                </asp:CheckBoxList>
+
+                <label>Province:</label>
+                <asp:DropDownList ID="txtprovince" runat="server">
+                    <asp:ListItem Text="AB" />
+                    <asp:ListItem Text="BC" />
+                    <asp:ListItem Text="ON" />
+                </asp:DropDownList>
+
             </div>
-
-
 
             <asp:Button ID="btnSubmit" runat="server" Text="Submit" CssClass="btn btn-success" OnClick="btnSubmit_Click" />
         </div>
@@ -54,6 +59,7 @@
             <asp:Label ID="lblEducation" runat="server" Visible="false"></asp:Label>
             <asp:Label ID="lblLaptop" runat="server" Visible="false"></asp:Label>
             <asp:Label ID="lblSkill" runat="server" Visible="false"></asp:Label>
+            <asp:Label ID="lblprovince" runat="server" Visible="false"></asp:Label>
         </div>
 
 

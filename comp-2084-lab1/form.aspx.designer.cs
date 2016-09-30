@@ -67,6 +67,15 @@ namespace comp_2084_lab1 {
         protected global::System.Web.UI.WebControls.CheckBoxList checkList;
         
         /// <summary>
+        /// txtprovince control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList txtprovince;
+        
+        /// <summary>
         /// btnSubmit control.
         /// </summary>
         /// <remarks>
@@ -128,5 +137,14 @@ namespace comp_2084_lab1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblSkill;
+        
+        /// <summary>
+        /// lblprovince control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblprovince;
     }
 }

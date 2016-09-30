@@ -22,12 +22,24 @@ namespace comp_2084_lab1
             lblEducation.Visible = true;
             lblLaptop.Visible = true;
             lblSkill.Visible = true;
+            lblprovince.Visible = true;
             lblName.Text = "Name : " + txtName.Text;
             lblPassword.Text = "Password : " + txtPassword.Text;
             lblAddress.Text = "Address : " + txtAddress.Text;
             lblEducation.Text = "Education : " + rbtLstRating.Text;
             lblLaptop.Text = "Laptop : " + txtLaptop.Checked;
-            lblSkill.Text = "Skills : " + checkList.Text;
+            lblprovince.Text = "Province : " + txtprovince.Text;
+
+            lblSkill.Text = "";
+                foreach (ListItem lst in checkList.Items)
+            {
+                if (lst.Selected == true)
+                {
+                    lblSkill.Text += "Selected Skills: " + lst.Text + "<br />";
+                }
+
+            }
+
         }
     }
 }

@@ -3,33 +3,54 @@
     margin-bottom: 7px;
     padding: 5px;
 }
+
 .form label {
     display: block;
     margin-top: 10px;
     font-size: 14px;
 }
+
 .form span {
     display: block;
     font-size: 15px;
     margin: 5px 0px;
+        background-color: #fafafa;
+    padding: 13px 20px;
+    border: solid 1px #ccc;
+    border-left: solid 3px #58b358;
 }
-.form .display-info {
-    margin-top: 80px;
-}
-.form .list td {
-    text-align:center;
-       padding: 0px 20px;
 
+.form .display-info {
+       margin-top: 80px;
 }
+
+.form .list td {
+    text-align: center;
+    padding: 0px 20px 0px 0px;
+        position: relative;
+    bottom: 10px;
+}
+
 .form .list input {
     height: 15px;
-
 }
+
 .form .list label {
-        display: inline-block;
+    display: inline-block;
     text-transform: none;
     margin-left: 6px;
     position: relative;
     bottom: 3px;
+}
 
+.form .fields input {
+    width: 80%;
+}
+
+input#ContentPlaceHolder1_btnSubmit {
+    margin: 20px 0px 40px;
+    width: 180px;
+}
+.form h1 {
+    font-size: 30px;
 }
